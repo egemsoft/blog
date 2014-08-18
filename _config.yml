@@ -1,3 +1,26 @@
-name: Flex
-markdown: redcarpet
-pygments: true
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+logo:             logo.png
+title:            'Egemsoft - Blog'
+tagline:          'Few words from our team'
+description:      ''
+url:              http://egemsoft.github.io/blog
+baseurl:          '/'
+paginate:         5
+about_link:       'http://egemsoft.net#/#about'
+
+author:
+  name:           'Egemsoft'
+  url:            https://egemsoft.net
+
+# Custom vars
+version:          1.0.0
+
+github:           egemsoft
+repo:           https://github.com/egemsoft/blog
