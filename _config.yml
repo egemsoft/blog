@@ -11,7 +11,7 @@ title:            'Egemsoft - Blog'
 tagline:          'Few words from our team'
 description:      ''
 url:              http://egemsoft.github.io/blog
-baseurl:          '/'
+baseurl:          'http://egemsoft.github.io/blog/'
 paginate:         5
 about_link:       'http://egemsoft.net#/#about'
 
