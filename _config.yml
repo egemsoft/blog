@@ -9,10 +9,12 @@ permalink:        pretty
 logo:             logo.png
 title:            'Egemsoft - Blog'
 tagline:          'Few words from our team'
-description:      ''
+description:      'Egemsoft company blog.'
 url:              http://egemsoft.github.io/blog
 baseurl:          'http://egemsoft.github.io/blog/'
+# baseurl:          '/'
 paginate:         5
+paginate_path:    "page/:num"
 about_link:       'http://egemsoft.net#/#about'
 
 author:
@@ -23,4 +25,4 @@ author:
 version:          1.0.0
 
 github:           egemsoft
-repo:           https://github.com/egemsoft/blog
+repo:             https://github.com/egemsoft/blog
