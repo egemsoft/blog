@@ -10,7 +10,8 @@ logo:             logo.png
 title:            'Egemsoft - Blog'
 tagline:          'Few words from our team'
 description:      'Egemsoft company blog.'
-url:              http://egemsoft.github.io/blog
+url:              'http://egemsoft.github.io/blog'
+basepath:         'http://egemsoft.github.io/blog'
 baseurl:          'http://egemsoft.github.io/blog/'
 # baseurl:          '/'
 paginate:         5
