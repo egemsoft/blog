@@ -27,3 +27,7 @@ version:          1.0.0
 
 github:           egemsoft
 repo:             https://github.com/egemsoft/blog
+
+#disqus
+disqus:
+  shortname:     egemsoft-blog
