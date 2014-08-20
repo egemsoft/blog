@@ -11,9 +11,7 @@ title:            'Egemsoft - Blog'
 tagline:          'Few words from our team'
 description:      'Egemsoft company blog.'
 url:              'http://blog.egemsoft.net'
-basepath:         'http://blog.egemsoft.net'
-baseurl:          'http://blog.egemsoft.net/'
-# baseurl:          '/'
+baseurl:          '/'
 paginate:         5
 paginate_path:    "page/:num"
 about_link:       'http://egemsoft.net#/#about'
