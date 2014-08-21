@@ -3,9 +3,8 @@ layout: post
 title: "Start Testing with Angular JS"
 category: "App Development"
 tags: [angular, yeoman, grunt, testing]
-author:
-  name: İsmail Demirbilek
-  email: ce.demirbilek@gmail.com
+authorName: İsmail Demirbilek
+authorEmail: ce.demirbilek@gmail.com
 ---
 {% include JB/setup %}
 
