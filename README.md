@@ -12,13 +12,13 @@ Posts are under `_posts` directory in Markdown format. You can find the document
 - Create an empty file under `_posts` with naming: `YYYY-MM-DD-post-title.md`.
 - Add config header:
 ```yaml
-  ---
-  layout: post
-  title: "Post Title"
-  category: "Post Category"
-  tags: [tag1, tag2, tag3]
-  author: author-shortname
-  ---
+---
+layout: post
+title: "Post Title"
+category: "Post Category"
+tags: [tag1, tag2, tag3]
+author: author-shortname
+---
 ```
 - Add content below the header.
 
