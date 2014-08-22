@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-pygments:         true
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
@@ -16,10 +16,14 @@ paginate:         5
 paginate_path:    "page/:num"
 about_link:       'http://egemsoft.net#/#about'
 
-author:
-  name:           'Egemsoft'
-  url:            https://egemsoft.net
-
+authors:
+  ismail:
+    name: İsmail Demirbilek
+    emailHash: 1ecf09922951ed72da5e0a6b3b12bfc1 # md5 encode of email address
+    bio: 'Software engineer who is mainly focused on modern web technologies.'
+    twitter: dbtek
+    github: dbtek
+    web: http://ismaildemirbilek.com
 # Custom vars
 version:          1.0.0
 

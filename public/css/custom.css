@@ -5,3 +5,33 @@
   top: 7px;
   border-radius: 0;
 }
+
+.content .author .name {
+  padding-top: 15px;
+}
+
+.content .author .avatar {
+  float: left;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.post .info {
+  margin-bottom: 15px;
+}
+.posts .info .post-date {
+  display: inline;
+}
+.posts .info .author {
+  color: #9a9a9a;
+}
+.posts .info .author-avatar {
+  float: right;
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+}

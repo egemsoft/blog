@@ -11,8 +11,15 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <div class="info">
+      {% if post.author && site.authors[post.author] %}
+      {% if site.authors[post.author].emailHash %}
+      <img class="author-avatar" src="http://www.gravatar.com/avatar/{{ site.authors[post.author].emailHash }}?s=60">
+      {% endif %}
+      <span class="author">by {{ site.authors[post.author].name }}</span>
+      {% endif %}
+      <span class="post-date">on {{ post.date | date_to_string }}</span>
+    </div>
 
     {{ post.excerpt }}
   </div>
