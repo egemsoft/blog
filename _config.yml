@@ -19,11 +19,11 @@ about_link:       'http://egemsoft.net#/#about'
 authors:
   ismail:
     name: İsmail Demirbilek
-    emailHash: 1ecf09922951ed72da5e0a6b3b12bfc1 # md5 encode of email address
+    emailHash: 1ecf09922951ed72da5e0a6b3b12bfc1   # md5 encode of email address
     bio: 'Software engineer who is mainly focused on modern web technologies.'
-    twitter: dbtek
-    github: dbtek
     web: http://ismaildemirbilek.com
+  # Add your author info here
+
 # Custom vars
 version:          1.0.0
 
