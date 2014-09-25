@@ -1,3 +1,6 @@
+.masthead-title {
+  text-align: center;
+}
 .masthead-title .logo {
   display: inline;
   margin: 0;
@@ -21,17 +24,24 @@
 }
 
 .post .info {
-  margin-bottom: 15px;
+  margin: 5px 0 25px;
+  font-weight: 100;
+  font-size: 16px;
+  color: #A7B0BE;
 }
 .posts .info .post-date {
   display: inline;
-}
-.posts .info .author {
-  color: #9a9a9a;
+  color: #A7B0BE;
 }
 .posts .info .author-avatar {
-  float: right;
   position: relative;
-  top: -50px;
   border-radius: 50%;
+  display: inline;
+  margin: 0;
+  top: 13px;
+  margin-right: 10px;
+}
+.post .social-share {
+  float: right;
+  margin-top: 17px;
 }

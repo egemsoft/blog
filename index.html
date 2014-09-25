@@ -6,17 +6,20 @@ title: Home
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
-    <h1 class="post-title">
+    <h2 class="post-title">
       <a href="{{ post.url }}">
         {{ post.title }}
       </a>
-    </h1>
+    </h2>
+    <div class="social-share">
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ site.url }}{{ post.url }}" data-text="{{ post.title }}" data-via="egemsoft" data-dnt="true">Tweet</a>
+    </div>
     <div class="info">
       {% if post.author && site.authors[post.author] %}
       {% if site.authors[post.author].emailHash %}
-      <img class="author-avatar" src="http://www.gravatar.com/avatar/{{ site.authors[post.author].emailHash }}?s=60">
+      <img class="author-avatar" src="http://www.gravatar.com/avatar/{{ site.authors[post.author].emailHash }}?s=40">
       {% endif %}
-      <span class="author">by {{ site.authors[post.author].name }}</span>
+      <span class="author">{{ site.authors[post.author].name }} wrote</span>
       {% endif %}
       <span class="post-date">on {{ post.date | date_to_string }}</span>
     </div>
@@ -42,4 +45,3 @@ title: Home
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
-
