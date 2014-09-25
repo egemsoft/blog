@@ -10,31 +10,34 @@ layout: default
 
 {% if page.author && site.authors[page.author] %}
 <div class="author">
+  <h2>Author</h2>
   {% if site.authors[page.author].emailHash %}
-  <img class="avatar" src="http://www.gravatar.com/avatar/{{ site.authors[page.author].emailHash }}?s=150">
+  <img class="avatar" src="http://www.gravatar.com/avatar/{{ site.authors[page.author].emailHash }}?s=60">
   {% endif %}
   <h3 class="name">
     <a href="{{ site.authors[page.author].web }}">{{ site.authors[page.author].name }}</a>
   </h3>
-  <p>{{ site.authors[page.author].bio }}</p>
+  <small>{{ site.authors[page.author].bio }}</small>
   <div class="clearfix"></div>
 </div>
 {% endif %}
 
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ post.url }}">
-            {{ post.title }}
+{% if site.related_posts.size > 0 %}
+  <div class="related">
+    <h2>Related Posts</h2>
+    <ul class="related-posts">
+      {% for post in site.related_posts limit:3 %}
+        <li>
+          <h3>
+            <a href="{{ post.url }}">
+              {{ post.title }}
+            </a>
             <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+          </h3>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
 
 {% include disqus.html %}

@@ -9,18 +9,34 @@
   border-radius: 0;
 }
 
+.content .author {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid #eee;
+}
 .content .author .name {
   padding-top: 15px;
 }
-
 .content .author .avatar {
   float: left;
   border-radius: 50%;
   margin-right: 20px;
+  margin-top: 35px;
 }
 
 .clearfix {
   clear: both;
+}
+
+.posts .post {
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #eee;
+}
+.posts .post:last-child {
+  margin-bottom: 4rem;
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 .post .info {
