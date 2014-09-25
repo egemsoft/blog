@@ -14,7 +14,17 @@ url:              'http://blog.egemsoft.net'
 baseurl:          '/'
 paginate:         5
 paginate_path:    "page/:num"
-about_link:       'http://egemsoft.net#/#about'
+
+sidebar_links:
+  - about:
+    label: 'About'
+    url: 'http://egemsoft.net#/#about'
+  - github:
+    label: 'Github'
+    url: 'https://github.com/egemsoft'
+  - twitter:
+    label: 'Twitter'
+    url: 'https://twitter.com/egemsoft'
 
 authors:
   ismail:
