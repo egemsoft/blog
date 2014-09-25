@@ -59,5 +59,7 @@
 }
 .post .social-share {
   float: right;
-  margin-top: 17px;
+}
+.posts .post .social-share {
+  margin-top: 23px;
 }
