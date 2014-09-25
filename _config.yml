@@ -7,30 +7,30 @@ permalink:        pretty
 
 # Setup
 logo:             logo.png
-title:            'Egemsoft Blog'
-tagline:          'Few words from our team'
-description:      'Egemsoft company blog.'
-url:              'http://blog.egemsoft.net'
-baseurl:          '/'
+title:            Egemsoft Blog
+tagline:          Few words from our team
+description:      Egemsoft company blog.
+url:              http://blog.egemsoft.net
+baseurl:          /
 paginate:         5
-paginate_path:    "page/:num"
+paginate_path:    page/:num
 
 sidebar_links:
   - about:
-    label: 'About'
-    url: 'http://egemsoft.net#/#about'
+    label: About
+    url:   'http://egemsoft.net#/#about'
   - github:
-    label: 'Github'
-    url: 'https://github.com/egemsoft'
+    label: Github
+    url:   https://github.com/egemsoft
   - twitter:
-    label: 'Twitter'
-    url: 'https://twitter.com/egemsoft'
+    label: Twitter
+    url:   https://twitter.com/egemsoft
 
 authors:
   ismail:
     name: İsmail Demirbilek
     emailHash: 1ecf09922951ed72da5e0a6b3b12bfc1   # md5 encode of email address
-    bio: 'Software engineer who is mainly focused on modern web technologies.'
+    bio: Software engineer who is mainly focused on modern web technologies.
     web: http://ismaildemirbilek.com
   # Add your author info here
 
